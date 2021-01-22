@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FCF7F7"
+    android:orientation="vertical">
+
+
+    <AnalogClock
+        android:id="@+id/analogclock1"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center_vertical"
+        android:background="#FEFFFF"
+        android:fadingEdge="horizontal"
+        android:scrollbarSize="59dp" />
+
+    <DigitalClock
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:gravity="center_horizontal"
+        android:textColor="#070707"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/Text2read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textSize="20dp" />
+
+</LinearLayout>
+
+

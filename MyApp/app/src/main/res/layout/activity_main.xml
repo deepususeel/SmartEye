@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapp.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Type your text here..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bspeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="SPEAK" />
+
+    <Button
+        android:id="@+id/bstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bspeak"
+        android:layout_alignStart="@+id/bspeak"
+        android:layout_alignLeft="@+id/bspeak"
+        android:layout_marginTop="77dp"
+        android:text="STOP" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bstop"
+        android:layout_alignStart="@+id/bspeak"
+        android:layout_alignLeft="@+id/bspeak"
+        android:layout_marginTop="77dp"
+        android:text="Click here" />
+
+
+</RelativeLayout>
+
+
